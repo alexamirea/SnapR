@@ -47,7 +47,7 @@
 <body>
 <div class="content flex-center full-height">
     <div class="title">
-        tesst <br>
+        test <br>
         test
     </div>
 </div>
