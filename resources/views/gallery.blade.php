@@ -47,7 +47,7 @@
 <body>
 <div class="content flex-center full-height">
     <div class="title">
-        test <br>
+        Gallery <br>
         test
     </div>
 </div>
