@@ -7,54 +7,21 @@
 
         <title>Photography</title>
 
+        <!-- Style sheet -->
+        <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
+
         <!-- load bootstrap from a cdn -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/3.0.3/css/bootstrap-combined.min.css">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #FFF;
-                color: #000;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 64px;
-            }
-
-        </style>
-
-        <script type="text/javascript">
-            function callRoute() {
-                window.location = '{{ url('/gallery' )}}';
-            }
-        </script>
     </head>
     <body>
     <span class="flex-center">
-                <button onclick="callRoute()" class="btn button">Gallery</button>
+                <a href="gallery">Cick aici</a>
             </span>
- {{--   <button>{{ route('gallery') }}">Click</button>--}}
+
             <div class="content flex-center full-height">
                 <div class="title">
                     Roxana <br>
