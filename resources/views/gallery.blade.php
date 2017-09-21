@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="author" content="Scotch">
-
         <title>Gallery</title>
 
         <!-- Style sheet -->
@@ -18,6 +17,9 @@
 
     </head>
     <body>
+    <a href ='welcome'>
+        ROXANA PHOTOGRAPHY
+    </a>
         <div class="content flex-center full-height">
             <div class="title">
                 Gallery <br>
