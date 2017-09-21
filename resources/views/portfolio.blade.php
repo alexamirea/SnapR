@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="author" content="Scotch">
-        <title>Photography</title>
+        <title>Portfolio</title>
 
         <!-- Style sheet -->
         <link rel="stylesheet" href="{{ asset('/css/style.css') }}">

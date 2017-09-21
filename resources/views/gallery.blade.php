@@ -14,17 +14,30 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
     </head>
     <body>
-    <a href ='welcome'>
-        ROXANA PHOTOGRAPHY
-    </a>
-        <div class="content flex-center full-height">
-            <div class="title">
-                Gallery <br>
-                test
-            </div>
-        </div>
+        <header>
+            <a href='welcome' class="logo-container" style="text-decoration: none">
+                <p>ROXANA PHOTOGRAPHY</p></a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href='welcome'>HOME</a>
+                    </li>
+                    <li>
+                        <a href='gallery'>GALLERY</a>
+                    </li>
+                    <li>
+                        <a href='portfolio'>PORTFOLIO</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <nav style="overflow: hidden; outline: none;" tabindex="0">
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
+        <footer>© Copyright 2017 Roxana Mihaela</footer>
     </body>
 </html>

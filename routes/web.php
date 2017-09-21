@@ -17,3 +17,7 @@ Route::get('welcome', function () {
 Route::get('gallery', ['as' => 'gallery', function () {
     return view('gallery');
 }]);
+
+Route::get('portfolio', ['as' => 'portfolio', function () {
+    return view('portfolio');
+}]);
