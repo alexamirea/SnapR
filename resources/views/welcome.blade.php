@@ -17,7 +17,7 @@
     </head>
     <body>
         <header>
-            <a href='welcome' class="logo-container" style="text-decoration: none">
+            <a href='welcome' class="logo-container">
                 <p>ROXANA PHOTOGRAPHY</p></a>
             <nav>
                 <ul>
@@ -30,6 +30,9 @@
                     <li>
                         <a href='portfolio'>PORTFOLIO</a>
                     </li>
+                    <li>
+                        <a href='about'>ABOUT</a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -39,7 +42,7 @@
             </ul>
         </nav>
         <footer>
-            <p class="copyrights">© Copyright 2017 Roxana Mihaela</p>
+            <p class="copyrights">© ROXANA PHOTOGRAPHY | ALL RIGHTS RESERVED</p>
                 <div class="social-networks clearfix">
                     <a href="#">
                         <span>FACEBOOK</span>

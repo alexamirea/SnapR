@@ -13,7 +13,7 @@ body {
     line-height: 25px;
     overflow: hidden;
     background-color: #000000;
-    font-family: "Helvetica", sans-serif;
+    font-family: "Arial", sans-serif;
 }
 
 header nav {
@@ -37,10 +37,11 @@ header .logo-container {
     margin-right: 60px;
     height: 60px;
     padding: 0 15px;
+    text-decoration: none;
 }
 
 header .logo-container p {
-    font-family: "Helvetica", sans-serif;
+    font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
     font-size: 12px;
@@ -105,7 +106,7 @@ footer .social-networks a i {
 }
 
 footer .social-networks a:hover {
-    color: #ffffff;
+    color: #fff;
 }
 
 header nav {
@@ -137,7 +138,11 @@ header nav > ul > li > a {
     line-height: 60px;
     display: inline-block   ;
     color: #959595;
-    letter-spacing: 0.4rem;
+    letter-spacing: 2.3px;
     font-size: 10px;
     text-decoration: none;
+}
+
+header nav a:hover {
+    color: #fff;
 }

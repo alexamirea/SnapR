@@ -17,7 +17,7 @@
     </head>
     <body>
         <header>
-            <a href='welcome' class="logo-container" style="text-decoration: none">
+            <a href='welcome' class="logo-container">
                 <p>ROXANA PHOTOGRAPHY</p></a>
             <nav>
                 <ul>
@@ -38,6 +38,26 @@
                 <li></li>
             </ul>
         </nav>
-        <footer>© Copyright 2017 Roxana Mihaela</footer>
+        <footer>
+            <p class="copyrights">© ROXANA PHOTOGRAPHY | ALL RIGHTS RESERVED</p>
+                <div class="social-networks clearfix">
+                    <a href="#">
+                        <span>FACEBOOK</span>
+                        <i class="facebook-icon icon1-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <span>TWITTER</span>
+                        <i class="twitter-icon icon1-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <span>PINTEREST</span>
+                        <i class="pinterest-icon icon3-pinterest"></i>
+                    </a>
+                    <a href="#">
+                        <span>INSTAGRAM</span>
+                        <i class="instagram-icon icon3-instagram"></i>
+                    </a>
+                </div>
+        </footer>
     </body>
 </html>
