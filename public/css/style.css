@@ -146,3 +146,32 @@ header nav > ul > li > a {
 header nav a:hover {
     color: #fff;
 }
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    padding: 20px;
+}
+
+body p {
+    font-family: "Arial", sans-serif;
+    line-height: 35px;
+    letter-spacing: 2.3px;
+}

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="description" content="Photo">
         <meta name="Alex" content="Scotch">
-        <title>Gallery</title>
+        <title>Portfolio</title>
 
         <!-- Style sheet -->
         <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
@@ -36,6 +36,12 @@
                 </ul>
             </nav>
         </header>
+        <content class="flex-center full-height position-ref ">
+            <p> This is a page about the kindest and sweetest person I have met. <br>
+            Her name is Roxana.<br>
+            This website is a tribute to her.
+            </p>
+        </content>
         <footer>
             <p class="copyrights">© ROXANA PHOTOGRAPHY | ALL RIGHTS RESERVED</p>
                 <div class="social-networks clearfix">

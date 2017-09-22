@@ -14,10 +14,17 @@
 Route::get('welcome', function () {
     return view('welcome');
 });
-Route::get('gallery', ['as' => 'gallery', function () {
+Route::get('gallery',
+    ['as' => 'gallery', function () {
     return view('gallery');
 }]);
 
-Route::get('portfolio', ['as' => 'portfolio', function () {
+Route::get('portfolio',
+    ['as' => 'portfolio', function () {
     return view('portfolio');
+}]);
+
+Route::get('about',
+    ['as' => 'about', function () {
+    return view('about');
 }]);

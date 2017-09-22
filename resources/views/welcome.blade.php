@@ -2,8 +2,8 @@
 <html lang="{{ app()->getLocale() }}">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="">
-        <meta name="author" content="Scotch">
+        <meta name="description" content="Photo">
+        <meta name="Alex" content="Scotch">
         <title>Photography</title>
 
         <!-- Style sheet -->
@@ -36,15 +36,10 @@
                 </ul>
             </nav>
         </header>
-        <nav style="overflow: hidden; outline: none;" tabindex="0">
-            <ul>
-                <li></li>
-            </ul>
-        </nav>
         <footer>
             <p class="copyrights">© ROXANA PHOTOGRAPHY | ALL RIGHTS RESERVED</p>
                 <div class="social-networks clearfix">
-                    <a href="#">
+                    <a href="https://www.facebook.com/Rrrroxana17">
                         <span>FACEBOOK</span>
                         <i class="facebook-icon icon1-facebook"></i>
                     </a>
@@ -56,7 +51,7 @@
                         <span>PINTEREST</span>
                         <i class="pinterest-icon icon3-pinterest"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/rrrroxana17">
                         <span>INSTAGRAM</span>
                         <i class="instagram-icon icon3-instagram"></i>
                     </a>
