@@ -64,6 +64,50 @@ body footer {
     z-index: 2;
 }
 
+footer .copyrights {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 60px;
+    margin-bottom: 0;
+    padding: 0px 15px;
+    font-size: 10px;
+    cursor: default;
+}
+
+footer .social-networks {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 60px;
+    padding: 0 120px;
+}
+
+footer .social-networks a {
+    font-size: 10px;
+    color: #959595;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 10px;
+    display: inline-block;
+    letter-spacing: 2.3px;
+    float: left;
+    text-decoration: none;
+}
+footer .social-networks a span {
+
+}
+
+footer .social-networks a i {
+    display: none;
+    line-height: 60px;
+    font-size: 13px;
+}
+
+footer .social-networks a:hover {
+    color: #ffffff;
+}
+
 header nav {
     float: right;
     padding: 0 60px;
@@ -95,4 +139,5 @@ header nav > ul > li > a {
     color: #959595;
     letter-spacing: 0.4rem;
     font-size: 10px;
+    text-decoration: none;
 }
