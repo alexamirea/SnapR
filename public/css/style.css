@@ -74,6 +74,7 @@ header nav {
 header nav ul {
     list-style: none;
     margin: 0;
+    padding: 0 60px;
 }
 
 header nav > ul {
@@ -90,7 +91,7 @@ header nav > ul > li > a {
     height: 60px;
     padding: 0 15px;
     line-height: 60px;
-    display: inline-block;
+    display: inline-block   ;
     color: #959595;
     letter-spacing: 0.4rem;
     font-size: 10px;
