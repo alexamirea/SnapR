@@ -14,6 +14,10 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+        <!-- Scripts -->
+        <script src="/public/js/jquery-3.2.1.js" type="text/javascript"></script>
+        <script src="/public/js/queryloader2.min.js" type="text/javascript"></script>
     </head>
     <body>
         <header>
@@ -36,6 +40,9 @@
                 </ul>
             </nav>
         </header>
+
+        <p class="flex-center full-height position-ref" style="font-size: 48px">test</p>
+
         <footer>
             <p class="copyrights">© ROXANA PHOTOGRAPHY | ALL RIGHTS RESERVED</p>
                 <div class="social-networks clearfix">
@@ -55,7 +62,7 @@
                         <span>INSTAGRAM</span>
                         <i class="instagram-icon icon3-instagram"></i>
                     </a>
-            </div>
+                </div>
         </footer>
     </body>
 </html>

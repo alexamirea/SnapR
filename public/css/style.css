@@ -13,7 +13,7 @@ body {
     line-height: 25px;
     overflow: hidden;
     background-color: #000000;
-    font-family: "Arial", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
 }
 
 header nav {
@@ -41,7 +41,7 @@ header .logo-container {
 }
 
 header .logo-container p {
-    font-family: "Arial", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     margin: 0;
     padding: 0;
     font-size: 12px;
@@ -147,6 +147,12 @@ header nav a:hover {
     color: #fff;
 }
 
+body p {
+    font-family: "Arial", sans-serif;
+    line-height: 35px;
+    letter-spacing: 2.3px;
+}
+
 .flex-center {
     align-items: center;
     display: flex;
@@ -168,10 +174,4 @@ header nav a:hover {
 .title {
     font-size: 36px;
     padding: 20px;
-}
-
-body p {
-    font-family: "Arial", sans-serif;
-    line-height: 35px;
-    letter-spacing: 2.3px;
 }

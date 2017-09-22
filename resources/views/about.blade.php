@@ -36,7 +36,7 @@
                 </ul>
             </nav>
         </header>
-        <content class="flex-center full-height position-ref ">
+        <content class="flex-center full-height position-ref">
             <p> This is a page about the kindest and sweetest person I have met. <br>
             Her name is Roxana.<br>
             This website is a tribute to her.
