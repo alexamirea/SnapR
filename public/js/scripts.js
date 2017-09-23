@@ -806,7 +806,7 @@
 
 
         // Preloader
-        if($(".contact-1").length <= 0 && $(".contact-2").length <= 0 && $("body > .loader").length > 0) {
+        if($("body > .loader").length > 0) {
 
             var bg_color = $("body > .loader").attr('data-background-color') || '#000000',
                 text_color = $("body > .loader").attr('data-text-color') || '#ffffff';

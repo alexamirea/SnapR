@@ -28,3 +28,8 @@ Route::get('about',
     ['as' => 'about', function () {
     return view('about');
 }]);
+
+Route::get('contact',
+    ['as' => 'contact', function () {
+        return view('contact');
+}]);

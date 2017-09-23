@@ -4,7 +4,7 @@
 
 
         <meta charset="utf-8">
-        <title>About</title>
+        <title>Contact</title>
 
         <!-- Meta tags -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -52,10 +52,18 @@
             </nav>
         </header>
 
-        <div class="main-container with-padding">
+        <div class="main-container">
 
-            <div class="wrapper">
+            <div class="contact">
+                <div class="content-wrapper clearfix">
+                    <div class="col full">
+                        <h4>CONTACT</h4>
+                        <p>Vestibulum tellus risus, pretium et facilisis nec, porta in felis. Nullam fermentum, lorem nec tincidunt tempus,
+                           lectus venenatis nisi, quis ultrices tortor arcu id diam. Nunc eros est, iaculis non quam et, mattis dignissim la Vivamus finibus id augue eu sagittis.
+                           Nam sapien nisi.</p>
+                    </div>
 
+                </div>
 
             </div>
 
@@ -64,24 +72,24 @@
 
         <footer>
             <p class="copyrights">© ROXANA PHOTOGRAPHY | ALL RIGHTS RESERVED</p>
-                <div class="social-networks clearfix">
-                    <a href="https://www.facebook.com/Rrrroxana17">
-                        <span>FACEBOOK</span>
-                        <i class="facebook-icon icon1-facebook"></i>
-                    </a>
-                    <a href="#">
-                        <span>TWITTER</span>
-                        <i class="twitter-icon icon1-twitter"></i>
-                    </a>
-                    <a href="#">
-                        <span>PINTEREST</span>
-                        <i class="pinterest-icon icon3-pinterest"></i>
-                    </a>
-                    <a href="https://www.instagram.com/rrrroxana17">
-                        <span>INSTAGRAM</span>
-                        <i class="instagram-icon icon3-instagram"></i>
-                    </a>
-                </div>
+            <div class="social-networks clearfix">
+                <a href="https://www.facebook.com/Rrrroxana17">
+                    <span>FACEBOOK</span>
+                    <i class="facebook-icon icon1-facebook"></i>
+                </a>
+                <a href="#">
+                    <span>TWITTER</span>
+                    <i class="twitter-icon icon1-twitter"></i>
+                </a>
+                <a href="#">
+                    <span>PINTEREST</span>
+                    <i class="pinterest-icon icon3-pinterest"></i>
+                </a>
+                <a href="https://www.instagram.com/rrrroxana17">
+                    <span>INSTAGRAM</span>
+                    <i class="instagram-icon icon3-instagram"></i>
+                </a>
+            </div>
         </footer>
     </body>
 </html>

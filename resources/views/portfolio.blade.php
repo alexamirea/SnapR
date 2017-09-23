@@ -46,9 +46,23 @@
                     <li>
                         <a href='about'>ABOUT</a>
                     </li>
+                    <li>
+                        <a href='contact'>CONTACT</a>
+                    </li>
                 </ul>
             </nav>
         </header>
+
+        <div class="main-container with-padding">
+
+            <div class="wrapper">
+
+
+            </div>
+
+
+        </div>
+
         <footer>
             <p class="copyrights">© ROXANA PHOTOGRAPHY | ALL RIGHTS RESERVED</p>
                 <div class="social-networks clearfix">

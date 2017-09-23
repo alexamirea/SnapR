@@ -30,13 +30,6 @@
 
     <body>
 
-{{--    <!-- Begin Loader -->
-    <div class="loader" data-background-color="#ffffff" data-text-color="#000000">
-        <p>LOADING</p>
-        <span class="circle"></span>
-    </div>
-    <!-- End Loader -->--}}
-
     <header>
             <a href='welcome' class="logo-container">
                 <p>ROXANA PHOTOGRAPHY</p>
@@ -55,6 +48,9 @@
                     </li>
                     <li>
                         <a href='about'>ABOUT</a>
+                    </li>
+                    <li>
+                        <a href='contact'>CONTACT</a>
                     </li>
                 </ul>
             </nav>
@@ -75,47 +71,12 @@
 
                         <div class="container">
                             <div class="img">
-                                <a href="/public/pictures/pic1.jpg" rel="gallery">
-                                    <img class="lazy" data-original="/public/pictures/pic1.jpg" alt="pic1" data-width="400" data-height="500">
-                                </a>
+                                <img src="https://www.sitebuilderreport.com/assets/facebook-stock-up-446fff24fb11820517c520c4a5a4c032.jpg" alt="doggo" heigh="640" width="480">
                             </div>
 
                             <div class="img">
-                                <a href="/public/pictures/pic2.jpg" rel="gallery">
-                                    <img class="lazy" data-original="/public/pictures/pic2.jpg" alt="pic2" data-width="600" data-height="800">
-                                </a>
+                                <img src="http://orig10.deviantart.net/2692/f/2016/170/8/e/labs_loves_to_fly_by_deingel_dog_stock-da6taq3.jpg" alt="1" heigh="640" width="480">
                             </div>
-
-                            <div class="img">
-                                <a href="/public/pictures/pic3.jpg" rel="gallery">
-                                    <img class="lazy" data-original="/public/pictures/pic3.jpg" alt="pic3" data-width="1365" data-height="2048">
-                                </a>
-                            </div>
-
-                            <div class="img">
-                                <a href="/public/pictures/pic4.jpg" rel="gallery">
-                                    <img class="lazy" data-original="public/pictures/pic4.jpg" alt="pic4" data-width="1365" data-height="2048">
-                                </a>
-                            </div>
-
-                            <div class="img">
-                                <a href="/public/pictures/pic5.jpg" rel="gallery">
-                                    <img class="lazy" data-original="public/pictures/pic5.jpg" alt="pic5" data-width="1365" data-height="2048">
-                                </a>
-                            </div>
-
-                            <div class="img">
-                                <a href="/public/pictures/pic6.jpg" rel="gallery">
-                                    <img class="lazy" data-original="/public/pictures/pic6.jpg" alt="pic6" data-width="2048" data-height="1581">
-                                </a>
-                            </div>
-
-                            <div class="img">
-                                <a href="/public/pictures/pic7.jpg" rel="gallery">
-                                    <img class="lazy" data-original="/public/pictures/pic7.jpg" alt="pic7" data-width="1920" data-height="1280">
-                                </a>
-                            </div>
-
                         </div>
 
                     </div>
@@ -149,7 +110,6 @@
         </footer>
             <!-- Scripts -->
             <script src="/js/jquery-3.2.1.js" type="text/javascript"></script>
-            {{--<script src="/js/queryloader2.min.js" type="text/javascript"></script>--}}
             <script src="/js/flexslider/jquery.flexslider-min.js" type ="text/javascript"></script>
             <script src="/js/lazyload.min.js" type="text/javascript"></script>
             <script src="/js/scripts.js" type="text/javascript"></script>
