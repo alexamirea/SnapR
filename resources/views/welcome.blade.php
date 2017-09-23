@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-
+<html>
     <head>
 
 
@@ -15,8 +15,8 @@
         <!-- Style sheet -->
         <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('/css/reset.css') }}">
-        <link rel="stylesheet" href="{{ asset('/css/font-awesome.css') }}">
         <link rel="stylesheet" href="{{ asset('js/flexslider/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('/js/jquery-ui/jquery-ui.1.10.3.custom.min.css') }}">
 
         <!-- load bootstrap from a cdn -->
        {{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">--}}
@@ -24,18 +24,11 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
-        <!-- Scripts -->
-        <script src="/js/jquery-3.2.1.js" type="text/javascript"></script>
-        {{--<script src="/js/queryloader2.min.js" type="text/javascript"></script>--}}
-        <script src="/js/flexslider/jquery.flexslider-min.js" type ="text/javascript"></script>
-        <script src="/js/lazyload.min.js" type="text/javascript"></script>
-        {{--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
---}}
 
     </head>
 
 
-<body>
+    <body>
 
 {{--    <!-- Begin Loader -->
     <div class="loader" data-background-color="#ffffff" data-text-color="#000000">
@@ -83,7 +76,7 @@
                         <div class="container">
                             <div class="img">
                                 <a href="/public/pictures/pic1.jpg" rel="gallery">
-                                    <img class="lazy" data-original="/public/pictures/pic1.jpg" alt="pic1" -width="400" data-height="500">
+                                    <img class="lazy" data-original="/public/pictures/pic1.jpg" alt="pic1" data-width="400" data-height="500">
                                 </a>
                             </div>
 
@@ -93,7 +86,7 @@
                                 </a>
                             </div>
 
-                            <div class="img active">
+                            <div class="img">
                                 <a href="/public/pictures/pic3.jpg" rel="gallery">
                                     <img class="lazy" data-original="/public/pictures/pic3.jpg" alt="pic3" data-width="1365" data-height="2048">
                                 </a>
@@ -154,5 +147,14 @@
                     </a>
                 </div>
         </footer>
+            <!-- Scripts -->
+            <script src="/js/jquery-3.2.1.js" type="text/javascript"></script>
+            {{--<script src="/js/queryloader2.min.js" type="text/javascript"></script>--}}
+            <script src="/js/flexslider/jquery.flexslider-min.js" type ="text/javascript"></script>
+            <script src="/js/lazyload.min.js" type="text/javascript"></script>
+            <script src="/js/scripts.js" type="text/javascript"></script>
+            <script src="/js/jquery-ui/jquery-ui.min.js"></script>
+            {{--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        --}}
     </body>
 </html>

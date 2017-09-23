@@ -1,21 +1,34 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Photo">
-        <meta name="Alex" content="Scotch">
-        <title>Portfolio</title>
+<!DOCTYPE HTML>
+<html>
+<head>
 
-        <!-- Style sheet -->
-        <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
 
-        <!-- load bootstrap from a cdn -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/3.0.3/css/bootstrap-combined.min.css">
+    <meta charset="utf-8">
+    <title>Portfolio</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-    </head>
+    <!-- Meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Photo">
+    <meta name="Alex" content="Scotch">
+
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/reset.css') }}">
+    <link rel="stylesheet" href="{{ asset('js/flexslider/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('/js/jquery-ui/jquery-ui.1.10.3.custom.min.css') }}">
+
+    <!-- load bootstrap from a cdn -->
+{{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">--}}
+
+<!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+
+</head>
+
     <body>
+
         <header>
             <a href='welcome' class="logo-container">
                 <p>ROXANA PHOTOGRAPHY</p></a>
