@@ -46,15 +46,8 @@
                     <li>
                         <a href='portfolio'>PORTFOLIO</a>
                     </li>
-                    <li>
-                        <a href='about'>ABOUT</a>
-                    </li>
-                    <li>
-                        <a href='contact'>CONTACT</a>
-                    </li>
                 </ul>
             </nav>
-
         </header>
 
         <div class="main-container with-padding">
@@ -71,11 +64,11 @@
 
                         <div class="container">
                             <div class="img">
-                                <img src="https://www.sitebuilderreport.com/assets/facebook-stock-up-446fff24fb11820517c520c4a5a4c032.jpg" alt="doggo" heigh="640" width="480">
+                                <img src="../pictures/IMG_1653.jpg" alt="img1">
                             </div>
 
                             <div class="img">
-                                <img src="http://orig10.deviantart.net/2692/f/2016/170/8/e/labs_loves_to_fly_by_deingel_dog_stock-da6taq3.jpg" alt="1" heigh="640" width="480">
+                                <img src="../pictures/IMG_1714.jpg" alt="img2">
                             </div>
                         </div>
 

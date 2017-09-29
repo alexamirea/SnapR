@@ -23,13 +23,3 @@ Route::get('portfolio',
     ['as' => 'portfolio', function () {
     return view('portfolio');
 }]);
-
-Route::get('about',
-    ['as' => 'about', function () {
-    return view('about');
-}]);
-
-Route::get('contact',
-    ['as' => 'contact', function () {
-        return view('contact');
-}]);

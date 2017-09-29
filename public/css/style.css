@@ -674,4 +674,26 @@ footer .social-networks a:hover {
 
 .contact h4{
     margin-bottom: 20px;
+    font-family: "Calibri Light", sans-serif;
+}
+
+.contact .info-box {
+    margin-bottom: 30px;
+    text-align: left;
+    font-family: "Calibri Light", sans-serif;
+}
+
+.contact .info-box .info {
+    margin-top: 0;
+    color: #000;
+    font-size: 12px;
+    letter-spacing: 4px;
+    font-family: "Calibri Light", sans-serif;
+}
+
+.contact .desc {
+    margin-bottom: -5px;
+    color: #000;
+    font-size: 12px;
+    font-family: "Calibri Light", sans-serif;
 }
